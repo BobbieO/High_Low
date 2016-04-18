@@ -37,6 +37,8 @@ fwrite(STDOUT, "You won! {$gameNum} was my number!\n");
 fwrite(STDOUT, "It took {$guessAttempts} times to read my mind.\n");
 `say -v Zarvox It took {$guessAttempts} times to read my mind`;
 
+fwrite(STDOUT, "Play again?\n");
+
 
 
 
